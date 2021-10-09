@@ -1,0 +1,32 @@
+.main-nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.nav-link{
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: color 0.5s ;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-link:hover{
+    color: rgb(145, 143, 143);
+}
+
+@media only screen and (max-width: 450px){
+    .main-nav{
+        display: block;
+    }
+    p{
+        margin: 0;
+    }
+}

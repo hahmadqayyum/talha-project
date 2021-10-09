@@ -1,0 +1,23 @@
+.ship-info{
+    color: black;
+}
+
+.ship-info-name,.ship-info-status,.ship-info-class, .gallery-heading,.ship-info-year,.ship-info-speed,.ship-info-type,.ship-info-number,.ship-info-al,.ship-info-sl,.ship-info-weight, .not-found{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 25px 15px;
+}
+.separate-line{
+    border-top: 1px dashed rgb(83, 83, 83);
+    border-bottom: none;
+}
+
+.ship-info-img{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 750px){
+    .ship-info{
+        text-align: center;
+    }
+}

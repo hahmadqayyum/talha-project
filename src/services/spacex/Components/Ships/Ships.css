@@ -1,0 +1,67 @@
+.ships{
+    color: white;
+}
+
+.ship-deck{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.ship-card{
+    width: 25%;
+    height:auto;
+    background-color: white;
+    color: black;
+    margin: 15px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.ship-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.ship-heading{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 15px;
+}
+
+.link-button{
+    display: block;
+    margin: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: transparent;
+    border: rgb(0, 0, 0) 1px solid;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.link-button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 900px){
+    .ship-card{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ship-card{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .ship-img{
+        height: auto;
+    }
+    .link-button{
+        margin: 25px auto;
+    }
+}
+
+

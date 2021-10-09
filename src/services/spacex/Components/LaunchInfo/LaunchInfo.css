@@ -1,0 +1,30 @@
+.launch-info{
+    color: black;
+}
+.launchinfo-heading , .launchinfo-date, .launchinfo-site, .launchinfo-year, .launchinfo-success, .launchinfo-rocket, .gallery-heading, .not-found{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 25px 15px;
+}
+.separate-line{
+    border-top: 1px dashed rgb(83, 83, 83);
+    border-bottom: none;
+}
+.gallery{
+    flex-wrap: wrap;
+}
+.launch-images{
+    width: 20%;
+    height: auto;
+    margin: 15px;
+}
+
+@media only screen and  (max-width: 750px){
+    .launch-images{
+        width: 40%;
+    }
+}
+@media only screen and  (max-width: 550px){
+    .launch-images{
+        width: 100%;
+    }
+}

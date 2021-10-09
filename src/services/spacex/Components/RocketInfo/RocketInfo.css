@@ -1,0 +1,28 @@
+.rocket-info{
+    color: black;
+}
+.rocket_name,.rocket-manufacture,.rocket-country,.rocket-cost,.rocket-status,.rocket-type,.rocket-engine-type,.rocket-engine-version,.first-flight,.rocket-height,.rocket-description, .gallery-heading, .not-found{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 25px 15px;
+}
+.separate-line{
+    border-top: 1px dashed rgb(83, 83, 83);
+    border-bottom: none;
+}
+.gallery{
+    flex-wrap: wrap;
+}
+.rocket-images{
+    width: 45%;
+    height: auto;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 750px){
+    .rocket-info{
+        text-align: center;
+    }
+    .rocket-images{
+        width: 100%;
+    }
+}

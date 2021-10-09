@@ -1,0 +1,22 @@
+.footer{
+    background-color: #ffffff;
+    height: auto;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.footer-para{
+    margin: 0;
+    font-weight: bolder;
+    
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.para{
+    background-color: #5b335e;
+
+    width: 100%;
+
+}

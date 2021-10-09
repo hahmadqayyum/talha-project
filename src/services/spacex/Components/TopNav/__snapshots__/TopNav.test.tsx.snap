@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNav test case renders the TopNav 1`] = `
+<div
+  className="top-nav"
+>
+  <img
+    alt="spacex-logo"
+    className="spacex-logo"
+    src="https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png"
+  />
+</div>
+`;

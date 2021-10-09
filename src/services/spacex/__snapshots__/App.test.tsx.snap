@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the componenet renders app component 1`] = `
+<div
+  className="App"
+>
+  <BrowserRouter>
+    <TopNav />
+    <MainNav />
+    <Routes>
+      <Route
+        element={<Home />}
+        path="/"
+      />
+      <Route
+        element={<LaunchPage />}
+        path="/launches"
+      />
+      <Route
+        element={<LaunchInfoPage />}
+        path="/launches/:flight_number"
+      />
+      <Route
+        element={<RocketPage />}
+        path="/rockets"
+      />
+      <Route
+        element={<RocketInfoPage />}
+        path="/rockets/:id"
+      />
+      <Route
+        element={<ShipsPage />}
+        path="/ships"
+      />
+      <Route
+        element={<ShipInfoPage />}
+        path="/ships/:id"
+      />
+    </Routes>
+  </BrowserRouter>
+</div>
+`;
