@@ -1,4 +1,12 @@
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/"
+  from = "/covid"
+  to = "/covid"
+  from = "/news"
+  to = "/news"
+  from = "/spacex"
+  to = "/spacex"
+  from = "/weather"
+  to = "/weather"
   status = 200
