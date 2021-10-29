@@ -1,24 +1,22 @@
-
+import React from 'react'
 import { useShipsQuery } from '../../generated/graphql'
 import Loading from '../Utils/Loading/Loading';
 import Ships from './Ships';
 
-const ShipContainer = () =>{
 
-    const { data , loading , error } = useShipsQuery();
+export default function ShipContainer(params) {
+    const { data, loading, error } = useShipsQuery();
 
-    if (loading){
+    if (loading) {
         return <Loading />
     }
 
-    if(error){
+    if (error) {
         return <div>There was an error</div>
     }
 
-    if (data){
+    if (data) {
         return <Ships data={data} />
     }
 
 }
-
-export default ShipContainer

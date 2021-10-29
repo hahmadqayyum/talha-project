@@ -1,4 +1,4 @@
-
+import React from 'react'
 import App from './App';
 import { ApolloProvider, InMemoryCache, ApolloClient } from '@apollo/client'
 

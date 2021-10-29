@@ -11,7 +11,7 @@ export default function mainHome(params) {
                     <div className="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-group u-shape-rectangle u-group-1">
                         <div className="u-container-layout u-valign-top u-container-layout-1">
                             <h2 className="u-text u-text-body-alt-color u-text-1"  ><h1 style={{ color: "#5b335e", fontWeight: "bolder" }} >Welcome to InfoForNation</h1></h2>
-                            <h3>AUTHENTIC & INTANT information for the whole the nation</h3>
+                            <h3>AUTHENTIC & INSTANT information for the whole the nation</h3>
                         </div>
                     </div>
                     <div className="u-expanded-width-sm u-expanded-width-xs u-list u-list-1">

@@ -369,7 +369,7 @@ function NewsDashboard() {
                         © 2020 @ info-for-nation. All rights reserved.
                       </div>
                       <div className="fs-14 font-weight-600">
-                        Handcrafted by <a href="https://www.bootstrapdash.com/" target="_blank" rel="noreferrer" className="text-white">BootstrapDash</a>
+                        Handcrafted by <a href="https://www.bootstrapdash.com/" target="_blank"  rel="noopener noreferrer"   className="text-white">BootstrapDash</a>
                       </div>
                     </div>
                   </div>
